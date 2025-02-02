@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/base/HeroSection";
 import { FC } from "react";
 
 const page: FC = () => {
    return (
       <div>
-         Home Page
-         <Button>Hello</Button>
+         <HeroSection />
       </div>
    );
 };
