@@ -15,7 +15,7 @@ export default function Login() {
             <p>Welcome back</p>
             <form className="mt-4">
                <div className="mt-4">
-                  <Label htmlFor="input">Email</Label>
+                  <Label htmlFor="email">Email</Label>
                   <Input
                      type="email"
                      id="email"
@@ -24,7 +24,7 @@ export default function Login() {
                   />
                </div>
                <div className="mt-4">
-                  <Label htmlFor="input">Password</Label>
+                  <Label htmlFor="password">Password</Label>
                   <Input
                      type="password"
                      id="password"
