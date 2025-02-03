@@ -43,6 +43,9 @@ export default function Register() {
       if (state.status === 500) {
          toast.error(state.message);
       }
+      if (state.status === 422) {
+         toast.error(state.message);
+      }
       if (state.status === 200) {
          toast.success(state.message);
          // Reset form only on successful registration
