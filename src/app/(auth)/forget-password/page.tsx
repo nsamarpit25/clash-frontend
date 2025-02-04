@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Login from "@/components/auth/Login";
+import ForgetPassword from "@/components/auth/ForgetPassword";
 
 export default function Page() {
    return (
@@ -8,17 +8,16 @@ export default function Page() {
             <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mt-4 text-center">
                Clash
             </h1>
-            <h1 className="text-3xl font-bold">Login</h1>
-            <p>Welcome back</p>
-            <Login />
+            <h1 className="text-3xl font-bold">Forgot Password</h1>
+            <p className="mt-2">
+               Enter your email address to reset your password
+            </p>
+            <ForgetPassword />
 
             <p className=" text-center mt-2">
                <Link href={"/register"}>
                   D{"on't"} have an account? Register
                </Link>
-            </p>
-            <p className=" text-center mt-2">
-               <Link href={"/forget-password"}>Forgot Password?</Link>
             </p>
          </div>
       </div>
